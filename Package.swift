@@ -16,7 +16,8 @@ let swiftSettings: Array<SwiftSetting> = [
 let package = Package(
     name: "swift-smtp",
     platforms: [
-        .macOS(.v10_15),
+        .macOS(.v13),
+        .iOS(.v13)
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
